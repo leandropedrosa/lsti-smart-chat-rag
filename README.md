@@ -29,7 +29,12 @@ docker ps -a
 ```
 Após cada container finalizar a construção, você poderá acessar a API do chatbot em http://localhost:8000/docs e o aplicativo Streamlit em http://localhost:8501/.
 
-Estrutura do proejeto
+Para acessar o endpoint diretamente utilizando o swagger local:
+
+`http://localhost:8000/docs#/AGENT/agent_mongo_agent_agent_mongo_post`
+
+
+Estrutura do projeto:
 
 ```console
 ./
